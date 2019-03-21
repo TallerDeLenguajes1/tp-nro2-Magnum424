@@ -1,0 +1,1 @@
+2)f- No se puede ver el archivo porque al estar en otra rama del proyecto se oculta automaticamente. Solo son visibles los archivos de la rama en la que se está trabajando.
