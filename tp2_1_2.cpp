@@ -6,16 +6,21 @@
 
 
 int main(){
-	int f, c;
+	int f, c, i;
 	double mt [N][M];
 
-	for (f = 0; f < N; f++)
+	for (f = 0; f < 20; f++)
 	{
-		for (c = 0; c < N; c++)
+		(*(&mt[0][0]  + f)) = rand()*100;	
+	}
+
+	for (i= 0; i < 20; i++)
+	{
+		printf("%lf ",(*(&mt[0][0] + i)));
+		if (i%5 == 0)
 		{
-			printf("%lf",*(*(mt + c)));
+			printf("\n");
 		}
-		printf("\n");
 	}
 
 	return 0;
