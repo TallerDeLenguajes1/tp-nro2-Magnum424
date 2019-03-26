@@ -1,1 +1,5 @@
 2)f- No se puede ver el archivo porque al estar en otra rama del proyecto se oculta automaticamente. Solo son visibles los archivos de la rama en la que se está trabajando.
+Al utilizar el comando "gitk --all" en master pude ver el historial de los cambios realizados en la linea de trabajo. Al cambiar a Opcion_2 y utilizar el mismo comando no noté
+diferencia alguna.
+Luego de hacer el merge de las dos lineas, se ve en el historial como se juntan ambas.
+(Puede ser raro pero al hacer el merge de usando "git merge Opcion_2" desde master, se eliminaron 2 de los 3 archivos presentes en master y se agrego el archivo de Opcion_2)
